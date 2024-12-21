@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: inset 0 0 0 1px rgba(255, 0, 0, 0.5);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 1600px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 0.25rem;
+}
