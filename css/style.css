@@ -6,3 +6,6 @@
 
 /* HEADER */
 @import "./global/header.css";
+
+/* HOME */
+@import "./home/hero.css";
