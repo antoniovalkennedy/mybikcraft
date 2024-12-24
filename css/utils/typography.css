@@ -88,6 +88,14 @@
   line-height: 1.125;
 }
 
+.font-3 {
+  font-family: "Merriweather", serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
 @media screen and (max-width: 1200px) {
   .font-1-xxl {
     font-size: 3rem;
@@ -107,5 +115,13 @@
   .font-1-xl,
   .font-2-xl {
     font-size: 1.5rem;
+  }
+
+  .font-3 {
+    font-family: "Merriweather", serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 1.25;
   }
 }

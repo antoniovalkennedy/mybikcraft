@@ -1,0 +1,64 @@
+.insureance {
+  background-color: var(--cor-11);
+}
+
+.insureance__content {
+  padding: 3.75rem 1.25rem;
+}
+
+.insureance__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.insureance__card {
+  background-color: var(--cor-12);
+  padding: 2rem 2rem 2rem 3.75rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.insureance__card-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.insureance__title {
+  margin-bottom: 2rem;
+}
+
+.insureance__card-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.insureance__card-list {
+  margin-bottom: 2rem;
+}
+
+.insureance__card-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+
+.insureance__card-item::before {
+  content: "";
+  display: inline-block;
+  background-image: url("/assets/img/icones/lista.svg");
+  width: 0.8125rem;
+  height: 0.5625rem;
+  left: -1.3125rem;
+  position: absolute;
+}
+
+@media screen and (max-width: 800px) {
+  .insureance__cards {
+    grid-template-columns: 1fr; 
+  }
+}

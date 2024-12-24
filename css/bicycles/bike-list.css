@@ -1,0 +1,58 @@
+.bicycles {
+  padding-top: 3.75rem;
+  padding-bottom: 7.5rem
+}
+
+.bicycles__list {
+  display: flex;
+  gap: 2.5rem;
+  padding: 2.5rem 1.25rem 1.25rem;
+  overflow-x: auto;
+}
+
+.bicycles__item {
+  min-width: 17.5rem;
+}
+
+.bicycles__link {
+  display: block;
+}
+
+.bicycles__link img {
+  margin-bottom: 1rem;
+}
+
+.bicycles__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.bicycles__title::before {
+  content: "";
+  display: inline-block;
+  background-color: var(--cor-p1);
+  width: 0.75rem;
+  height: 0.5rem;
+  margin-right: 0.5rem;
+  transition: width 0.2s;
+}
+
+.bicycles__link:hover .bicycles__title::before {
+  width: 1.5rem;
+}
+
+.bicycles__price {
+  display: inline-block;
+  margin-left: 1.25rem;
+}
+
+@media screen and (max-width: 800px) {
+  .bicycles {
+    padding-bottom: 3.75rem
+  }
+
+  .bicycles__list {
+    gap: 1.25rem;
+  }
+}

@@ -11,10 +11,6 @@
   padding: 1.25rem;
 }
 
-.nav img {
-  border-radius: 0;
-}
-
 .nav__list {
   display: flex;
   flex-wrap: wrap;

@@ -3,9 +3,19 @@
 @import "./utils/typography.css";
 @import "./utils/components.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /* HEADER */
 @import "./global/header.css";
 
 /* HOME */
 @import "./home/hero.css";
+@import "./home/technology.css";
+@import "./home/partners.css";
+@import "./home/testimonials.css";
+
+/* BICYCLES */
+@import "./bicycles/bike-list.css";
+
+/* INSUREANCE */
+@import "./insureance/insureance.css";
